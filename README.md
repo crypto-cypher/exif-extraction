@@ -2,7 +2,7 @@
 Techniques for extracting metadata from files &amp; sorting it into a spreadsheet using exiftool.
 
 **PDF:**
-$ exiftool -csv -title -author -creator -creatortool -pagecount -pdfversion -createdate -modify date -r -ext pdf . > exif-pdf.csv
+$ exiftool -csv -title -author -creator -creatortool -pagecount -pdfversion -createdate -modifydate -r -ext pdf . > exif-pdf.csv
 
 **DOCX:**
 $ exiftool -csv -title -creator -lastmodifiedby -company -application -template -words -appversion -docsecurity -createdate -modifydate -r -ext docx . > exif-docx.csv
