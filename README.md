@@ -1,5 +1,5 @@
 # exif-extraction
-Techniques for extracting metadata from files &amp; sorting it into a spreadsheet using exiftool.
+Techniques for recursively extracting metadata from files &amp; sorting it into a spreadsheet using exiftool.
 
 **PDF:**
 $ exiftool -csv -title -author -creator -creatortool -pagecount -pdfversion -createdate -modifydate -r -ext pdf . > exif-pdf.csv
